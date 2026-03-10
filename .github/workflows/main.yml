@@ -23,7 +23,7 @@ jobs:
       - name: Build and Push
         run: |
           docker build -t onelight01/flask-app:${{ github.sha }} .
-          docker push /flask-app:${{ github.sha }}
+          docker push onelight01/flask-app:${{ github.sha }}
 
       - name: Update Manifest and Push
         run: |
