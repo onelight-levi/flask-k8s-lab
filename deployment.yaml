@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: onelight01/flask-app:ad31e4c7f7a3a4003704cbca5ecd2f032a3b2757
+          image: onelight01/flask-app:daf3de0ef5c10c2b07b526d51418fc909d758621
           ports:
             - containerPort: 5000
 ---
